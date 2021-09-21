@@ -22,9 +22,8 @@ def main():
     else:
         # output
         print("You guessed wrong!")
+        print("Answer: {}".format(answer))
 
-    print("")
-    print("Answer: {}".format(answer))
     print("\nDone")
 
 
